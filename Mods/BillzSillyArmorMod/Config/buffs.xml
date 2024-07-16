@@ -1,0 +1,34 @@
+<configs>
+	
+
+
+	<append xpath="/buffs">
+
+		<buff name="buffClownEars" icon="ui_game_symbol">
+			<display_value_key value="Clown Ears"/> <display_value value="xxx"/>
+			<stack_type value="replace"/>
+			
+
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AltSounds" enabled="true"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="AltSounds" enabled="false"/>
+			</effect_group>
+
+
+			<effect_group>
+				<requirements>
+					<requirement name="!HasBuff" buff="twitch_voteSillySounds"/>
+					<requirement name="!HasBuff" buff="twitch_buffSillySounds"/>
+				</requirements>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AltSounds" enabled="true"/>
+			</effect_group>
+		
+		</buff>
+	</append>
+	
+</configs>
+<!--
+/)_/)
+( . .)
+c(")(")
+-->
