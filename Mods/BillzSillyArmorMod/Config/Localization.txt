@@ -1,7 +1,0 @@
-Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
-
-modEarPlugs,item_modifiers,Mod,,,"Earplugs mod",,,,,,,,,,,,,
-modEarPlugsDesc,item_modifiers,Mod,,,"This Earplugs can be added to Head Armor and drastically reduces all volume. 
-
-Use the Light Source action (F) to activate."
-buffEarPlugs,buffs,Buff,,,"Earplugs",,,,,,,,,,,,,
