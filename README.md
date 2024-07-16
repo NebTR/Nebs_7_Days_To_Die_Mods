@@ -1,5 +1,12 @@
 # Billz 7 Days to Die mods
 If a mod has a bug please create an request in [Issues](https://github.com/WildKillBill/Billz_7_Days_To_Die_Mods/issues) with the name of the mod as the title
+
+<hr>
+
+### Update Notes
+- | New Mod | Billz Silly Armor Mod: a mod that adds a clown horn that can be equiped to your outfit that can be toggled to have silly sounds on or off (will pause toggle if twitch effect of silly sound is on
+- | Earplugs | now can not be toggled if effect twitch_buffDeafen or twitch_buffVoteDeafen is currently applied
+
 <hr>
 
 ## Mods
