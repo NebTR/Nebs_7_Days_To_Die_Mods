@@ -1,0 +1,52 @@
+<configs>
+
+    <append xpath="/recipes">
+
+        <!--Black dye made from 15 paint-->
+        <recipe name="modDyeBlack" count="1" craft_area="workbench" craft_time="2">
+		<ingredient name="resourcePaint" count="15"/>
+        </recipe> 
+
+        <!--Blue dye made from 15 paint-->
+        <recipe name="modDyeBlue" count="1" craft_area="workbench" craft_time="2">
+		<ingredient name="resourcePaint" count="15"/>
+        </recipe> 
+
+        <!--Brown dye made from 15 paint-->
+        <recipe name="modDyeBrown" count="1" craft_area="workbench" craft_time="2">
+		<ingredient name="resourcePaint" count="15"/>
+        </recipe> 
+
+        <!--Green dye made from 15 paint-->
+        <recipe name="modDyeGreen" count="1" craft_area="workbench" craft_time="2">
+		<ingredient name="resourcePaint" count="15"/>
+        </recipe> 
+
+        <!--Orange dye made from 15 paint-->
+        <recipe name="modDyeOrange" count="1" craft_area="workbench" craft_time="2">
+		<ingredient name="resourcePaint" count="15"/>
+        </recipe> 
+
+        <!--Pink dye made from 15 paint-->
+        <recipe name="modDyePink" count="1" craft_area="workbench" craft_time="2">
+		<ingredient name="resourcePaint" count="15"/>
+        </recipe> 
+
+        <!--Purple dye made from 15 paint-->
+        <recipe name="modDyePurple" count="1" craft_area="workbench" craft_time="2">
+		<ingredient name="resourcePaint" count="15"/>
+        </recipe> 
+
+        <!--Red dye made from 15 paint-->
+        <recipe name="modDyeRed" count="1" craft_area="workbench" craft_time="2">
+		<ingredient name="resourcePaint" count="15"/>
+        </recipe> 
+
+        <!--Yellow dye made from 15 paint-->
+        <recipe name="modDyeYellow" count="1" craft_area="workbench" craft_time="2">
+		<ingredient name="resourcePaint" count="15"/>
+        </recipe> 
+
+    </append>
+
+</configs>

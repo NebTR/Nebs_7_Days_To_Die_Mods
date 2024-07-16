@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+modEarPlugs,item_modifiers,Mod,,,"Earplugs mod"
+modEarPlugDesc,item_modifiers,Mod,,,"This Earplugs can be added to Head Armor and drastically reduces all volume."
+modEarPlugShematic,item_modifiers,Mod,,,"This Earplugs can be added to Head Armor and drastically reduces all volume."

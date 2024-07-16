@@ -1,0 +1,1109 @@
+<configs>
+
+    <append xpath="/blocks">
+
+		 <!--Wooden Doors-->
+       <block name="BillzexteriorHouseDoor">
+	        <property name="Extends" value="exteriorHouseDoorWhite"/>
+	        <property name="CustomIcon" value="exteriorHouseDoorWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="exteriorHouseDoorWhite,exteriorHouseDoorBrown,exteriorHouseDoorRed,exteriorHouseDoorOrange,exteriorHouseDoorYellow,exteriorHouseDoorGreen,exteriorHouseDoorBlue,exteriorHouseDoorPurple,exteriorHouseDoorGrey,exteriorHouseDoorPink,exteriorHouseDoorOak,exteriorHouseDoorDoubleWhite,exteriorHouseDoorDoubleBrown,exteriorHouseDoorDoubleRed,exteriorHouseDoorDoubleOrange,exteriorHouseDoorDoubleYellow,exteriorHouseDoorDoubleGreen,exteriorHouseDoorDoubleBlue,exteriorHouseDoorDoublePurple,exteriorHouseDoorDoubleGrey,exteriorHouseDoorDoublePink,exteriorHouseDoorDoubleOak,exteriorHouseDoorSideLightSingleWhite,exteriorHouseDoorSideLightSingleBrown,exteriorHouseDoorSideLightSingleRed,exteriorHouseDoorSideLightSingleOrange,exteriorHouseDoorSideLightSingleYellow,exteriorHouseDoorSideLightSingleGreen,exteriorHouseDoorSideLightSingleBlue,exteriorHouseDoorSideLightSinglePurple,exteriorHouseDoorSideLightSingleGrey,exteriorHouseDoorSideLightSingleOak,exteriorHouseDoorSideLightWhite,exteriorHouseDoorSideLightRed,exteriorHouseDoorSideLightOrange,exteriorHouseDoorSideLightYellow,exteriorHouseDoorSideLightGreen,exteriorHouseDoorSideLightBlue,exteriorHouseDoorSideLightPurple,exteriorHouseDoorSideLightGrey,exteriorHouseDoorSideLightPink,exteriorHouseDoorSideLightOak,exteriorHouseDoorOldWhite,exteriorHouseDoorOldBrown,exteriorHouseDoorOldRed,exteriorHouseDoorOldOrange,exteriorHouseDoorOldYellow,exteriorHouseDoorOldGreen,exteriorHouseDoorOldBlue,exteriorHouseDoorOldPurple,exteriorHouseDoorOldGrey,exteriorHouseDoorOldPink,exteriorHouseDoorOldOak,exteriorHouseDoorDoubleOldWhite,exteriorHouseDoorDoubleOldBrown,exteriorHouseDoorDoubleOldRed,exteriorHouseDoorDoubleOldOrange,exteriorHouseDoorDoubleOldYellow,exteriorHouseDoorDoubleOldGreen,exteriorHouseDoorDoubleOldBlue,exteriorHouseDoorDoubleOldPurple,exteriorHouseDoorDoubleOldGrey,exteriorHouseDoorDoubleOldPink,exteriorHouseDoorDoubleOldOak,exteriorScreenDoor,exteriorScreenDoornNoFrame,houseSlidingDoorWhite,houseSlidingDoorBlack,frenchDoorWhite,frenchDoorBrown,frenchDoorRed,frenchDoorOrange,frenchDoorYellow,frenchDoorGreen,frenchDoorBlue,frenchDoorPurple,frenchDoorGrey,frenchDoorPink,frenchDoorOak,frenchDoorDoubleWhite,frenchDoorDoubleBrown,frenchDoorDoubleRed,frenchDoorDoubleOrange,frenchDoorDoubleYellow,frenchDoorDoubleGreen,frenchDoorDoubleBlue,frenchDoorDoublePurple,frenchDoorDoubleGrey,frenchDoorDoublePink,frenchDoorDoubleOak,interiorHouseDoorWhite,interiorHouseDoorBrown,interiorHouseDoorRed,interiorHouseDoorOrange,interiorHouseDoorYellow,interiorHouseDoorGreen,interiorHouseDoorBlue,interiorHouseDoorPurple,interiorHouseDoorGrey,interiorHouseDoorPink,interiorHouseDoorOak,interiorHouseDoorDoubleWhite,interiorHouseDoorDoubleBrown,interiorHouseDoorDoubleRed,interiorHouseDoorDoubleOrange,interiorHouseDoorDoubleYellow,interiorHouseDoorDoubleGreen,interiorHouseDoorDoubleBlue,interiorHouseDoorDoublePurple,interiorHouseDoorDoubleGrey,interiorHouseDoorDoublePink,interiorHouseDoorDoubleOak,interiorDoorOldWhite,interiorDoorOldBrown,interiorDoorOldRed,interiorDoorOldOrange,interiorDoorOldYellow,interiorDoorOldGreen,interiorDoorOldBlue,interiorDoorOldPurple,interiorDoorOldGrey,interiorDoorOldPink,interiorDoorOldOak,interiorDoorOldDoubleWhite,interiorDoorOldDoubleBrown,interiorDoorOldDoubleRed,interiorDoorOldDoubleOrange,interiorDoorOldDoubleYellow,interiorDoorOldDoubleGreen,interiorDoorOldDoubleBlue,interiorDoorOldDoublePurple,interiorDoorOldDoubleGrey,interiorDoorOldDoublePink,interiorDoorOldDoubleOak,tallCabinetDoorWhite,tallCabinetDoorBrown,tallCabinetDoorRed,tallCabinetDoorOrange,tallCabinetDoorYellow,tallCabinetDoorGreen,tallCabinetDoorBlue,tallCabinetDoorPurple,tallCabinetDoorGrey,tallCabinetDoorBlack,tallCabinetDoorPink,closetDoorWhite,closetDoorBrown,closetDoorRed,closetDoorOrange,closetDoorYellow,closetDoorGreen,closetDoorBlue,closetDoorPurple,closetDoorGrey,closetDoorPink,closetDoorDoubleWhite,closetDoorDoubleBrown,closetDoorDoubleRed,closetDoorDoubleOrange,closetDoorDoubleYellow,closetDoorDoubleGreen,closetDoorDoubleBlue,closetDoorDoublePurple,closetDoorDoubleGrey,closetDoorDoublePink,pantryDoorWhite,pantryDoorBrown,pantryDoorRed,pantryDoorOrange,pantryDoorYellow,pantryDoorGreen,pantryDoorBlue,pantryDoorPurple,pantryDoorGrey,pantryDoorPink,woodenFenceDoorWhite,woodenFenceDoorBrown,woodenFenceDoorRed,woodenFenceDoorOrange,woodenFenceDoorYellow,woodenFenceDoorGreen,woodenFenceDoorBlue,woodenFenceDoorPurple,woodenFenceDoorGrey,woodenFenceDoorPink,cntArmoireDoorsWhite,cntArmoireDoorsBrown,cntArmoireDoorsRed,cntArmoireDoorsOrange,cntArmoireDoorsYellow,cntArmoireDoorsGreen,cntArmoireDoorsBlue,cntArmoireDoorsPurple,cntArmoireDoorsGrey,cntArmoireDoorsBlack,cntArmoireDoorsPink,portaPottyDoorBrown,portaPottyDoorRed,portaPottyDoorOrange,portaPottyDoorYellow,portaPottyDoorGreen,portaPottyDoorBlue,portaPottyDoorPurple,portaPottyDoorGrey,portaPottyDoorPink,bathroomStallDoor"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzexteriorHouseDoorDouble">
+	        <property name="Extends" value="exteriorHouseDoorDoubleWhite"/>
+	        <property name="CustomIcon" value="exteriorHouseDoorDoubleWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="exteriorHouseDoorDoubleWhite,exteriorHouseDoorDoubleBrown,exteriorHouseDoorDoubleRed,exteriorHouseDoorDoubleOrange,exteriorHouseDoorDoubleYellow,exteriorHouseDoorDoubleGreen,exteriorHouseDoorDoubleBlue,exteriorHouseDoorDoublePurple,exteriorHouseDoorDoubleGrey,exteriorHouseDoorDoublePink,exteriorHouseDoorDoubleOak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzexteriorHouseDoorSideLightSingle">
+	        <property name="Extends" value="exteriorHouseDoorSideLightSingleWhite"/>
+	        <property name="CustomIcon" value="exteriorHouseDoorSideLightWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="exteriorHouseDoorSideLightSingleWhite,exteriorHouseDoorSideLightSingleBrown,exteriorHouseDoorSideLightSingleRed,exteriorHouseDoorSideLightSingleOrange,exteriorHouseDoorSideLightSingleYellow,exteriorHouseDoorSideLightSingleGreen,exteriorHouseDoorSideLightSingleBlue,exteriorHouseDoorSideLightSinglePurple,exteriorHouseDoorSideLightSingleGrey,exteriorHouseDoorSideLightSingleOak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzexteriorHouseDoorSideLight">
+	        <property name="Extends" value="exteriorHouseDoorSideLightWhite"/>
+	        <property name="CustomIcon" value="exteriorHouseDoorSideLightWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="exteriorHouseDoorSideLightWhite,exteriorHouseDoorSideLightBrown,exteriorHouseDoorSideLightRed,exteriorHouseDoorSideLightOrange,exteriorHouseDoorSideLightYellow,exteriorHouseDoorSideLightGreen,exteriorHouseDoorSideLightBlue,exteriorHouseDoorSideLightPurple,exteriorHouseDoorSideLightGrey,exteriorHouseDoorSideLightPink,exteriorHouseDoorSideLightOak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzexteriorHouseDoorOld">
+	        <property name="Extends" value="exteriorHouseDoorOldWhite"/>
+	        <property name="CustomIcon" value="exteriorHouseDoorOldWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="exteriorHouseDoorOldWhite,exteriorHouseDoorOldBrown,exteriorHouseDoorOldRed,exteriorHouseDoorOldOrange,exteriorHouseDoorOldYellow,exteriorHouseDoorOldGreen,exteriorHouseDoorOldBlue,exteriorHouseDoorOldPurple,exteriorHouseDoorOldGrey,exteriorHouseDoorOldPink,exteriorHouseDoorOldOak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzexteriorHouseDoorDoubleOld">
+	        <property name="Extends" value="exteriorHouseDoorDoubleOldWhite"/>
+	        <property name="CustomIcon" value="exteriorHouseDoorDoubleOldWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="exteriorHouseDoorDoubleOldWhite,exteriorHouseDoorDoubleOldBrown,exteriorHouseDoorDoubleOldRed,exteriorHouseDoorDoubleOldOrange,exteriorHouseDoorDoubleOldYellow,exteriorHouseDoorDoubleOldGreen,exteriorHouseDoorDoubleOldBlue,exteriorHouseDoorDoubleOldPurple,exteriorHouseDoorDoubleOldGrey,exteriorHouseDoorDoubleOldPink,exteriorHouseDoorDoubleOldOak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzexteriorScreenDoor">
+	        <property name="Extends" value="exteriorScreenDoor"/>
+	        <property name="CustomIcon" value="exteriorScreenDoor"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="exteriorScreenDoor,exteriorScreenDoornNoFrame"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzhouseSlidingDoor">
+	        <property name="Extends" value="houseSlidingDoorWhite"/>
+	        <property name="CustomIcon" value="houseSlidingDoorWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="houseSlidingDoorWhite,houseSlidingDoorBlack"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzfrenchDoor">
+	        <property name="Extends" value="frenchDoorWhite"/>
+	        <property name="CustomIcon" value="frenchDoorWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="frenchDoorWhite,frenchDoorBrown,frenchDoorRed,frenchDoorOrange,frenchDoorYellow,frenchDoorGreen,frenchDoorBlue,frenchDoorPurple,frenchDoorGrey,frenchDoorPink,frenchDoorOak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzfrenchDoorDouble">
+	        <property name="Extends" value="frenchDoorDoubleWhite"/>
+	        <property name="CustomIcon" value="frenchDoorDoubleWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="frenchDoorDoubleWhite,frenchDoorDoubleBrown,frenchDoorDoubleRed,frenchDoorDoubleOrange,frenchDoorDoubleYellow,frenchDoorDoubleGreen,frenchDoorDoubleBlue,frenchDoorDoublePurple,frenchDoorDoubleGrey,frenchDoorDoublePink,frenchDoorDoubleOak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzinteriorHouseDoor">
+	        <property name="Extends" value="interiorHouseDoorWhite"/>
+	        <property name="CustomIcon" value="interiorHouseDoorWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="interiorHouseDoorWhite,interiorHouseDoorBrown,interiorHouseDoorRed,interiorHouseDoorOrange,interiorHouseDoorYellow,interiorHouseDoorGreen,interiorHouseDoorBlue,interiorHouseDoorPurple,interiorHouseDoorGrey,interiorHouseDoorPink,interiorHouseDoorOak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzinteriorHouseDoorDouble">
+	        <property name="Extends" value="interiorHouseDoorDoubleWhite"/>
+	        <property name="CustomIcon" value="interiorHouseDoorDoubleWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="interiorHouseDoorDoubleWhite,interiorHouseDoorDoubleBrown,interiorHouseDoorDoubleRed,interiorHouseDoorDoubleOrange,interiorHouseDoorDoubleYellow,interiorHouseDoorDoubleGreen,interiorHouseDoorDoubleBlue,interiorHouseDoorDoublePurple,interiorHouseDoorDoubleGrey,interiorHouseDoorDoublePink,interiorHouseDoorDoubleOak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzinteriorDoorOld">
+	        <property name="Extends" value="interiorDoorOldWhite"/>
+	        <property name="CustomIcon" value="interiorDoorOldWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="interiorDoorOldWhite,interiorDoorOldBrown,interiorDoorOldRed,interiorDoorOldOrange,interiorDoorOldYellow,interiorDoorOldGreen,interiorDoorOldBlue,interiorDoorOldPurple,interiorDoorOldGrey,interiorDoorOldPink,interiorDoorOldOak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzinteriorDoorOldDouble">
+	        <property name="Extends" value="interiorDoorOldDoubleWhite"/>
+	        <property name="CustomIcon" value="interiorDoorOldDoubleWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="interiorDoorOldDoubleWhite,interiorDoorOldDoubleBrown,interiorDoorOldDoubleRed,interiorDoorOldDoubleOrange,interiorDoorOldDoubleYellow,interiorDoorOldDoubleGreen,interiorDoorOldDoubleBlue,interiorDoorOldDoublePurple,interiorDoorOldDoubleGrey,interiorDoorOldDoublePink,interiorDoorOldDoubleOak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillztallCabinetDoor">
+	        <property name="Extends" value="tallCabinetDoorWhite"/>
+	        <property name="CustomIcon" value="tallCabinetDoorWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="tallCabinetDoorWhite,tallCabinetDoorBrown,tallCabinetDoorRed,tallCabinetDoorOrange,tallCabinetDoorYellow,tallCabinetDoorGreen,tallCabinetDoorBlue,tallCabinetDoorPurple,tallCabinetDoorGrey,tallCabinetDoorBlack,tallCabinetDoorPink"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzclosetDoor">
+	        <property name="Extends" value="closetDoorWhite"/>
+	        <property name="CustomIcon" value="closetDoorWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="closetDoorWhite,closetDoorBrown,closetDoorRed,closetDoorOrange,closetDoorYellow,closetDoorGreen,closetDoorBlue,closetDoorPurple,closetDoorGrey,closetDoorPink"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzclosetDoorDouble">
+	        <property name="Extends" value="closetDoorDoubleWhite"/>
+	        <property name="CustomIcon" value="closetDoorDoubleWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="closetDoorDoubleWhite,closetDoorDoubleBrown,closetDoorDoubleRed,closetDoorDoubleOrange,closetDoorDoubleYellow,closetDoorDoubleGreen,closetDoorDoubleBlue,closetDoorDoublePurple,closetDoorDoubleGrey,closetDoorDoublePink"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzpantryDoor">
+	        <property name="Extends" value="pantryDoorWhite"/>
+	        <property name="CustomIcon" value="pantryDoorWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="pantryDoorWhite,pantryDoorBrown,pantryDoorRed,pantryDoorOrange,pantryDoorYellow,pantryDoorGreen,pantryDoorBlue,pantryDoorPurple,pantryDoorGrey,pantryDoorPink"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzcntArmoireDoors">
+	        <property name="Extends" value="cntArmoireDoorsWhite"/>
+	        <property name="CustomIcon" value="cntArmoireDoorsWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="cntArmoireDoorsWhite,cntArmoireDoorsBrown,cntArmoireDoorsRed,cntArmoireDoorsOrange,cntArmoireDoorsYellow,cntArmoireDoorsGreen,cntArmoireDoorsBlue,cntArmoireDoorsPurple,cntArmoireDoorsGrey,cntArmoireDoorsBlack,cntArmoireDoorsPink"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzportaPottyDoor">
+	        <property name="Extends" value="portaPottyDoorWhite"/>
+	        <property name="CustomIcon" value="portaPottyDoorWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="portaPottyDoorWhite,portaPottyDoorBrown,portaPottyDoorRed,portaPottyDoorOrange,portaPottyDoorYellow,portaPottyDoorGreen,portaPottyDoorBlue,portaPottyDoorPurple,portaPottyDoorGrey,portaPottyDoorPink"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+
+
+		<!--Iron Doors-->
+		<block name="BillzjailDoor">
+	        <property name="Extends" value="jailDoorWhite"/>
+	        <property name="CustomIcon" value="jailDoorWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="jailDoorWhite,jailDoorBrown,jailDoorYellow,jailDoorGreen,jailDoorBlue,jailDoorGrey"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzjailDoorDouble">
+	        <property name="Extends" value="jailDoorDoubleWhite"/>
+	        <property name="CustomIcon" value="jailDoorDoubleWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="jailDoorDoubleWhite,jailDoorDoubleBrown,jailDoorDoubleYellow,jailDoorDoubleGreen,jailDoorDoubleBlue,jailDoorDoubleGrey"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzjailDoorFallen">
+	        <property name="Extends" value="jailDoorFallenWhite"/>
+	        <property name="CustomIcon" value="jailDoorFallenWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="jailDoorFallenWhite,jailDoorFallenBrown,jailDoorFallenYellow,jailDoorFallenGreen,jailDoorFallenBlue,jailDoorFallenGrey"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzjailDoorDoubleFallen">
+	        <property name="Extends" value="jailDoorDoubleFallenWhite"/>
+	        <property name="CustomIcon" value="jailDoorDoubleFallenWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="jailDoorDoubleFallenWhite,jailDoorDoubleFallenBrown,jailDoorDoubleFallenYellow,jailDoorDoubleFallenGreen,jailDoorDoubleFallenBlue,jailDoorDoubleFallenGrey"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzjailBars">
+	        <property name="Extends" value="jailBarsWhite"/>
+	        <property name="CustomIcon" value="jailBarsWhite"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="jailBarsWhite,jailBarsBrown,jailBarsYellow,jailBarsGreen,jailBarsBlue,jailBarsGrey"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzchainlinkFenceDoor">
+	        <property name="Extends" value="chainlinkFenceDoor"/>
+	        <property name="CustomIcon" value="chainlinkFenceDoor"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="chainlinkFenceDoor,chainlinkFenceDoorDouble"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzcommercialDoorV1">
+	        <property name="Extends" value="commercialDoorV1White"/>
+	        <property name="CustomIcon" value="commercialDoorV1White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="commercialDoorV1White,commercialDoorV1Brown,commercialDoorV1Red,commercialDoorV1Orange,commercialDoorV1Yellow,commercialDoorV1Green,commercialDoorV1Blue,commercialDoorV1Purple,commercialDoorV1Grey,commercialDoorV1Pink,commercialDoorV1Oak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzcommercialDoorDoubleV1">
+	        <property name="Extends" value="commercialDoorDoubleV1White"/>
+	        <property name="CustomIcon" value="commercialDoorDoubleV1White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="commercialDoorDoubleV1White,commercialDoorDoubleV1Brown,commercialDoorDoubleV1Red,commercialDoorDoubleV1Orange,commercialDoorDoubleV1Yellow,commercialDoorDoubleV1Green,commercialDoorDoubleV1Blue,commercialDoorDoubleV1Purple,commercialDoorDoubleV1Grey,commercialDoorDoubleV1Pink,commercialDoorDoubleV1Oak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzcommercialDoorV2">
+	        <property name="Extends" value="commercialDoorV2White"/>
+	        <property name="CustomIcon" value="commercialDoorV2White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="commercialDoorV2White,commercialDoorV2Brown,commercialDoorV2Red,commercialDoorV2Orange,commercialDoorV2Yellow,commercialDoorV2Green,commercialDoorV2Blue,commercialDoorV2Purple,commercialDoorV2Grey,commercialDoorV2Pink,commercialDoorV2Oak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzcommercialDoorDoubleV2">
+	        <property name="Extends" value="commercialDoorDoubleV2White"/>
+	        <property name="CustomIcon" value="commercialDoorDoubleV2White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="commercialDoorDoubleV2White,commercialDoorDoubleV2Brown,commercialDoorDoubleV2Red,commercialDoorDoubleV2Orange,commercialDoorDoubleV2Yellow,commercialDoorDoubleV2Green,commercialDoorDoubleV2Blue,commercialDoorDoubleV2Purple,commercialDoorDoubleV2Grey,commercialDoorDoubleV2Pink,commercialDoorDoubleV2Oak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzcommercialDoorV3">
+	        <property name="Extends" value="commercialDoorV3White"/>
+	        <property name="CustomIcon" value="commercialDoorV3White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="commercialDoorV3White,commercialDoorV3Brown,commercialDoorV3Red,commercialDoorV3Orange,commercialDoorV3Yellow,commercialDoorV3Green,commercialDoorV3Blue,commercialDoorV3Purple,commercialDoorV3Grey,commercialDoorV3Pink,commercialDoorV3Oak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzcommercialDoorDoubleV3">
+	        <property name="Extends" value="commercialDoorDoubleV3White"/>
+	        <property name="CustomIcon" value="commercialDoorDoubleV3White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="commercialDoorDoubleV3White,commercialDoorDoubleV3Brown,commercialDoorDoubleV3Red,commercialDoorDoubleV3Orange,commercialDoorDoubleV3Yellow,commercialDoorDoubleV3Green,commercialDoorDoubleV3Blue,commercialDoorDoubleV3Purple,commercialDoorDoubleV3Grey,commercialDoorDoubleV3Pink,commercialDoorDoubleV3Oak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzcommercialDoorV4">
+	        <property name="Extends" value="commercialDoorV4White"/>
+	        <property name="CustomIcon" value="commercialDoorV4White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="commercialDoorV4White,commercialDoorV4Brown,commercialDoorV4Red,commercialDoorV4Orange,commercialDoorV4Yellow,commercialDoorV4Green,commercialDoorV4Blue,commercialDoorV4Purple,commercialDoorV4Grey,commercialDoorV4Pink,commercialDoorV4Oak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzcommercialDoorDoubleV4">
+	        <property name="Extends" value="commercialDoorDoubleV4White"/>
+	        <property name="CustomIcon" value="commercialDoorDoubleV4White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="commercialDoorDoubleV4White,commercialDoorDoubleV4Brown,commercialDoorDoubleV3Red,commercialDoorDoubleV3Orange,commercialDoorDoubleV3Yellow,commercialDoorDoubleV3Green,commercialDoorDoubleV3Blue,commercialDoorDoubleV3Purple,commercialDoorDoubleV3Grey,commercialDoorDoubleV3Pink,commercialDoorDoubleV3Oak"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+
+		<!--Glass Doors-->
+		<block name="BillzcommercialGlassDoor">
+	        <property name="Extends" value="commercialGlassDoor"/>
+	        <property name="CustomIcon" value="commercialGlassDoor"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" valuSe="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="commercialGlassDoor,commercialGlassDoorDouble,commercialSlidingDoor"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzcommercialBulletproofGlassDoor">
+	        <property name="Extends" value="commercialBulletproofGlassDoor"/>
+	        <property name="CustomIcon" value="commercialBulletproofGlassDoor"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="commercialBulletproofGlassDoor,commercialBulletproofGlassDoorDouble,commercialBulletproofSlidingDoor"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<!--Billz Custom Powered Doors-->
+		<block name="BillzCrollUpDoor3x3Powered">
+	        <property name="Extends" value="rollUpDoor3x3White"/>
+	        <property name="CustomIcon" value="rollUpDoor3x3White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="BillzCrollUpDoor3x3_PoweredWhite,BillzCrollUpDoor3x3_PoweredBrown,BillzCrollUpDoor3x3_PoweredRed,BillzCrollUpDoor3x3_PoweredOrange,BillzCrollUpDoor3x3_PoweredYellow,BillzCrollUpDoor3x3_PoweredGreen,BillzCrollUpDoor3x3_PoweredBlue,BillzCrollUpDoor3x3_PoweredPurple,BillzCrollUpDoor3x3_PoweredGrey,BillzCrollUpDoor3x3_PoweredBlack,BillzCrollUpDoor3x3_PoweredPink"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzCrollUpDoor5x4Powered">
+	        <property name="Extends" value="rollUpDoor5x4White"/>
+	        <property name="CustomIcon" value="rollUpDoor5x4White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="BillzCrollUpDoor5x4_PoweredWhite,BillzCrollUpDoor5x4_PoweredBrown,BillzCrollUpDoor5x4_PoweredRed,BillzCrollUpDoor5x4_PoweredOrange,BillzCrollUpDoor5x4_PoweredYellow,BillzCrollUpDoor5x4_PoweredGreen,BillzCrollUpDoor5x4_PoweredBlue,BillzCrollUpDoor5x4_PoweredPurple,BillzCrollUpDoor5x4_PoweredGrey,BillzCrollUpDoor5x4_PoweredBlack,BillzCrollUpDoor5x4_PoweredPink"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+		<block name="BillzCrollUpDoor7x4Powered">
+	        <property name="Extends" value="rollUpDoor7x4White"/>
+	        <property name="CustomIcon" value="rollUpDoor7x4White"/>
+	        <property name="CreativeMode" value="Player"/>
+	        <property name="ItemTypeIcon" value="all_blocks"/>
+	        <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	        <property name="SelectAlternates" value="true"/>
+	        <property name="PlaceAltBlockValue" value="BillzCrollUpDoor7x4_PoweredWhite,BillzCrollUpDoor7x4_PoweredBrown,BillzCrollUpDoor7x4_PoweredRed,BillzCrollUpDoor7x4_PoweredOrange,BillzCrollUpDoor7x4_PoweredYellow,BillzCrollUpDoor7x4_PoweredGreen,BillzCrollUpDoor7x4_PoweredBlue,BillzCrollUpDoor7x4_PoweredPurple,BillzCrollUpDoor7x4_PoweredGrey,BillzCrollUpDoor7x4_PoweredBlack,BillzCrollUpDoor7x4_PoweredPink"/>
+	        <property name="Group" value="Building,advBuilding"/>
+	        <property name="FilterTags" value="MC_building,SC_doors"/>
+	        <property name="SellableToTrader" value="false"/>
+        </block>
+
+    </append>
+
+
+
+	<!--Billz Custom Powered Door-->
+	<append xpath="/blocks">
+		<!--White 3x3-->
+		<block name="BillzCrollUpDoor3x3_PoweredWhite">
+			<property name="Extends" value="rollUpDoor3x3White"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="UnlockedBy" value="craftingElectrician"/>
+			<property name="CustomIcon" value="rollUpDoor3x3White"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="SortOrder1" value="B320"/>
+			<property name="Tags" value="door,electricianSkill"/>
+		</block>
+
+		<!-- Brown -->
+		<block name="BillzCrollUpDoor3x3_PoweredBrown">
+			<property name="Extends" value="BillzCrollUpDoor3x3_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor3x3White"/>
+			<property name="CustomIconTint" value="5E5146"/>
+			<property name="TintColor" value="5E5146"/>
+			<property name="SortOrder2" value="0001"/>
+		</block>
+
+		<!-- Red -->
+		<block name="BillzCrollUpDoor3x3_PoweredRed">
+			<property name="Extends" value="BillzCrollUpDoor3x3_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor3x3White"/>
+			<property name="CustomIconTint" value="844C51"/>
+			<property name="TintColor" value="844C51"/>
+			<property name="SortOrder2" value="0002"/>
+		</block>
+
+		<!-- Orange -->
+		<block name="BillzCrollUpDoor3x3_PoweredOrange">
+			<property name="Extends" value="BillzCrollUpDoor3x3_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor3x3White"/>
+			<property name="CustomIconTint" value="E07F4B"/>
+			<property name="TintColor" value="E07F4B"/>
+			<property name="SortOrder2" value="0003"/>
+		</block>
+
+		<!-- Yellow -->
+		<block name="BillzCrollUpDoor3x3_PoweredYellow">
+			<property name="Extends" value="BillzCrollUpDoor3x3_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor3x3White"/>
+			<property name="CustomIconTint" value="E0DE91"/>
+			<property name="TintColor" value="E0DE91"/>
+			<property name="SortOrder2" value="0004"/>
+		</block>
+
+		<!-- Green -->
+		<block name="BillzCrollUpDoor3x3_PoweredGreen">
+			<property name="Extends" value="BillzCrollUpDoor3x3_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor3x3White"/>
+			<property name="CustomIconTint" value="7C8976"/>
+			<property name="TintColor" value="7C8976"/>
+			<property name="SortOrder2" value="0005"/>
+		</block>
+
+		<!-- Blue -->
+		<block name="BillzCrollUpDoor3x3_PoweredBlue">
+			<property name="Extends" value="BillzCrollUpDoor3x3_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor3x3White"/>
+			<property name="CustomIconTint" value="4E79A6"/>
+			<property name="TintColor" value="4E79A6"/>
+			<property name="SortOrder2" value="0006"/>
+		</block>
+
+		<!-- Purple -->
+		<block name="BillzCrollUpDoor3x3_PoweredPurple">
+			<property name="Extends" value="BillzCrollUpDoor3x3_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor3x3White"/>
+			<property name="CustomIconTint" value="746993"/>
+			<property name="TintColor" value="746993"/>
+			<property name="SortOrder2" value="0007"/>
+		</block>
+
+		<!-- Grey -->
+		<block name="BillzCrollUpDoor3x3_PoweredGrey">
+			<property name="Extends" value="BillzCrollUpDoor3x3_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor3x3White"/>
+			<property name="CustomIconTint" value="939393"/>
+			<property name="TintColor" value="939393"/>
+			<property name="SortOrder2" value="0008"/>
+		</block>
+
+		<!-- Black -->
+		<block name="BillzCrollUpDoor3x3_PoweredBlack">
+			<property name="Extends" value="BillzCrollUpDoor3x3_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor3x3White"/>
+			<property name="CustomIconTint" value="000000"/>
+			<property name="TintColor" value="000000"/>
+			<property name="SortOrder2" value="0009"/>
+		</block>
+
+		<!-- Pink -->
+		<block name="BillzCrollUpDoor3x3_PoweredPink">
+			<property name="Extends" value="BillzCrollUpDoor3x3_PoweredWhite"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="rollUpDoor3x3White"/>
+			<property name="CustomIconTint" value="9A8399"/>
+			<property name="TintColor" value="9A8399"/>
+			<property name="SortOrder2" value="0010"/>
+		</block>
+
+
+		<!--White 5x4-->
+		<block name="BillzCrollUpDoor5x4_PoweredWhite">
+			<property name="Extends" value="rollUpDoor5x4White"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="UnlockedBy" value="craftingElectrician"/>
+			<property name="CustomIcon" value="rollUpDoor5x4White"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="SortOrder1" value="B320"/>
+			<property name="Tags" value="door,electricianSkill"/>
+		</block>
+
+		<!-- Brown -->
+		<block name="BillzCrollUpDoor5x4_PoweredBrown">
+			<property name="Extends" value="BillzCrollUpDoor5x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor5x4White"/>
+			<property name="CustomIconTint" value="5E5146"/>
+			<property name="TintColor" value="5E5146"/>
+			<property name="SortOrder2" value="0001"/>
+		</block>
+
+		<!-- Red -->
+		<block name="BillzCrollUpDoor5x4_PoweredRed">
+			<property name="Extends" value="BillzCrollUpDoor5x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor5x4White"/>
+			<property name="CustomIconTint" value="844C51"/>
+			<property name="TintColor" value="844C51"/>
+			<property name="SortOrder2" value="0002"/>
+		</block>
+
+		<!-- Orange -->
+		<block name="BillzCrollUpDoor5x4_PoweredOrange">
+			<property name="Extends" value="BillzCrollUpDoor5x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor5x4White"/>
+			<property name="CustomIconTint" value="E07F4B"/>
+			<property name="TintColor" value="E07F4B"/>
+			<property name="SortOrder2" value="0003"/>
+		</block>
+
+		<!-- Yellow -->
+		<block name="BillzCrollUpDoor5x4_PoweredYellow">
+			<property name="Extends" value="BillzCrollUpDoor5x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor5x4White"/>
+			<property name="CustomIconTint" value="E0DE91"/>
+			<property name="TintColor" value="E0DE91"/>
+			<property name="SortOrder2" value="0004"/>
+		</block>
+
+		<!-- Green -->
+		<block name="BillzCrollUpDoor5x4_PoweredGreen">
+			<property name="Extends" value="BillzCrollUpDoor5x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor5x4White"/>
+			<property name="CustomIconTint" value="7C8976"/>
+			<property name="TintColor" value="7C8976"/>
+			<property name="SortOrder2" value="0005"/>
+		</block>
+
+		<!-- Blue -->
+		<block name="BillzCrollUpDoor5x4_PoweredBlue">
+			<property name="Extends" value="BillzCrollUpDoor5x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor5x4White"/>
+			<property name="CustomIconTint" value="4E79A6"/>
+			<property name="TintColor" value="4E79A6"/>
+			<property name="SortOrder2" value="0006"/>
+		</block>
+
+		<!-- Purple -->
+		<block name="BillzCrollUpDoor5x4_PoweredPurple">
+			<property name="Extends" value="BillzCrollUpDoor5x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor5x4White"/>
+			<property name="CustomIconTint" value="746993"/>
+			<property name="TintColor" value="746993"/>
+			<property name="SortOrder2" value="0007"/>
+		</block>
+
+		<!-- Grey -->
+		<block name="BillzCrollUpDoor5x4_PoweredGrey">
+			<property name="Extends" value="BillzCrollUpDoor5x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor5x4White"/>
+			<property name="CustomIconTint" value="939393"/>
+			<property name="TintColor" value="939393"/>
+			<property name="SortOrder2" value="0008"/>
+		</block>
+
+		<!-- Black -->
+		<block name="BillzCrollUpDoor5x4_PoweredBlack">
+			<property name="Extends" value="BillzCrollUpDoor5x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor5x4White"/>
+			<property name="CustomIconTint" value="000000"/>
+			<property name="TintColor" value="000000"/>
+			<property name="SortOrder2" value="0009"/>
+		</block>
+
+		<!-- Pink -->
+		<block name="BillzCrollUpDoor5x4_PoweredPink">
+			<property name="Extends" value="BillzCrollUpDoor5x4_PoweredWhite"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="rollUpDoor5x4White"/>
+			<property name="CustomIconTint" value="9A8399"/>
+			<property name="TintColor" value="9A8399"/>
+			<property name="SortOrder2" value="0010"/>
+		</block>
+
+
+		<!--White 7x4-->
+		<block name="BillzCrollUpDoor7x4_PoweredWhite">
+			<property name="Extends" value="rollUpDoor7x4White"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="UnlockedBy" value="craftingElectrician"/>
+			<property name="CustomIcon" value="rollUpDoor7x4White"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="SortOrder1" value="B320"/>
+			<property name="Tags" value="door,electricianSkill"/>
+		</block>
+
+		<!-- Brown -->
+		<block name="BillzCrollUpDoor7x4_PoweredBrown">
+			<property name="Extends" value="BillzCrollUpDoor7x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor7x4White"/>
+			<property name="CustomIconTint" value="5E5146"/>
+			<property name="TintColor" value="5E5146"/>
+			<property name="SortOrder2" value="0001"/>
+		</block>
+
+		<!-- Red -->
+		<block name="BillzCrollUpDoor7x4_PoweredRed">
+			<property name="Extends" value="BillzCrollUpDoor7x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor7x4White"/>
+			<property name="CustomIconTint" value="844C51"/>
+			<property name="TintColor" value="844C51"/>
+			<property name="SortOrder2" value="0002"/>
+		</block>
+
+		<!-- Orange -->
+		<block name="BillzCrollUpDoor7x4_PoweredOrange">
+			<property name="Extends" value="BillzCrollUpDoor7x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor7x4White"/>
+			<property name="CustomIconTint" value="E07F4B"/>
+			<property name="TintColor" value="E07F4B"/>
+			<property name="SortOrder2" value="0003"/>
+		</block>
+
+		<!-- Yellow -->
+		<block name="BillzCrollUpDoor7x4_PoweredYellow">
+			<property name="Extends" value="BillzCrollUpDoor7x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor7x4White"/>
+			<property name="CustomIconTint" value="E0DE91"/>
+			<property name="TintColor" value="E0DE91"/>
+			<property name="SortOrder2" value="0004"/>
+		</block>
+
+		<!-- Green -->
+		<block name="BillzCrollUpDoor7x4_PoweredGreen">
+			<property name="Extends" value="BillzCrollUpDoor7x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor7x4White"/>
+			<property name="CustomIconTint" value="7C8976"/>
+			<property name="TintColor" value="7C8976"/>
+			<property name="SortOrder2" value="0005"/>
+		</block>
+
+		<!-- Blue -->
+		<block name="BillzCrollUpDoor7x4_PoweredBlue">
+			<property name="Extends" value="BillzCrollUpDoor7x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor7x4White"/>
+			<property name="CustomIconTint" value="4E79A6"/>
+			<property name="TintColor" value="4E79A6"/>
+			<property name="SortOrder2" value="0006"/>
+		</block>
+
+		<!-- Purple -->
+		<block name="BillzCrollUpDoor7x4_PoweredPurple">
+			<property name="Extends" value="BillzCrollUpDoor7x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor7x4White"/>
+			<property name="CustomIconTint" value="746993"/>
+			<property name="TintColor" value="746993"/>
+			<property name="SortOrder2" value="0007"/>
+		</block>
+
+		<!-- Grey -->
+		<block name="BillzCrollUpDoor7x4_PoweredGrey">
+			<property name="Extends" value="BillzCrollUpDoor7x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor7x4White"/>
+			<property name="CustomIconTint" value="939393"/>
+			<property name="TintColor" value="939393"/>
+			<property name="SortOrder2" value="0008"/>
+		</block>
+
+		<!-- Black -->
+		<block name="BillzCrollUpDoor7x4_PoweredBlack">
+			<property name="Extends" value="BillzCrollUpDoor7x4_PoweredWhite"/>
+			<property name="CustomIcon" value="rollUpDoor7x4White"/>
+			<property name="CustomIconTint" value="000000"/>
+			<property name="TintColor" value="000000"/>
+			<property name="SortOrder2" value="0009"/>
+		</block>
+
+		<!-- Pink -->
+		<block name="BillzCrollUpDoor7x4_PoweredPink">
+			<property name="Extends" value="BillzCrollUpDoor7x4_PoweredWhite"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="rollUpDoor7x4White"/>
+			<property name="CustomIconTint" value="9A8399"/>
+			<property name="TintColor" value="9A8399"/>
+			<property name="SortOrder2" value="0010"/>
+		</block>
+	</append>
+
+
+
+<append xpath="/blocks">
+		<block name="BillzPostersPaintingsPictures">
+			<property name="Extends" value="pictureFrameJetGirls"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="pictureFrameJetGirls"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="DescriptionKey" value="BillzPostersPaintingsPicturesDesc"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="pictureFrameJetGirls,pictureFrameCarrier,pictureFrameTank,pictureFrameGunSchematic,pictureFramedMedalsLrg,pictureFramedMedalsMed,pictureFramedMedalsSml,pictureDeskFrameBigFam,pictureDeskFrameModFam,pictureDeskFrameRetroFam,posterCalendarWorkingStiff,calendar2034,posterBlueprintPistol,posterBlueprintRifle,paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen,targetPoster1,targetPoster2,signPosterWantedMissing01,signPosterWantedMissing02,signPosterWantedMissing03,signSnackPosterAtom,signSnackPosterBretzels,signSnackPosterEyeCandy,signSnackPosterFortBites,signSnackPosterGoblinO,signSnackPosterHackers,signSnackPosterHealth,signSnackPosterJailBreakers,signSnackPosterJerky,signSnackPosterNachos,signSnackPosterNachosRanch,signSnackPosterNerd,signSnackPosterOopsClassic,signSnackPosterOops,signSnackPosterPrime,signSnackPosterRamen,signSnackPosterSkullCrusher,signPosterMovie2159,signPosterMovieLoneWolf,signPosterMovieMammasJustice,signPosterMovieSexualTension,signPosterMovieTheater2159,signPosterMovieTheaterLoneWolf,signPosterMovieTheaterMammasJustice,signPosterMovieTheaterSexualTension"/>
+			<property name="SortOrder1" value="U200"/>
+			<property name="EconomicValue" value="25"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+			<property name="FilterTags" value="MC_building,SC_decor,MC_playerBlocks,SC_playerHelpers"/>
+		</block>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrameCarrier']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrameTank']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrameGunSchematic']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrameJetGirls']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFramedMedalsLrg']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFramedMedalsMed']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFramedMedalsSml']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureDeskFrameBigFam']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureDeskFrameModFam']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureDeskFrameRetroFam']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='posterCalendarWorkingStiff']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='posterBlueprintPistol']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='posterBlueprintRifle']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='paintingBen']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='paintingLorien']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='paintingDerek']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='paintingNoah']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='paintingDuke']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='paintingKen']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='calendar2034']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='targetPoster1']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='targetPoster2']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signPosterWantedMissing01']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signPosterWantedMissing02']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signPosterWantedMissing03']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterAtom']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterBretzels']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterEyeCandy']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterFortBites']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterGoblinO']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterHackers']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterHealth']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterJailBreakers']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterJerky']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterNachos']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterNachosRanch']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterNerd']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterOopsClassic']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterOops']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterPrime']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterRamen']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signSnackPosterSkullCrusher']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signPosterMovie2159']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signPosterMovieLoneWolf']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signPosterMovieMammasJustice']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signPosterMovieSexualTension']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signPosterMovieTheater2159']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signPosterMovieTheaterLoneWolf']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signPosterMovieTheaterMammasJustice']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='signPosterMovieTheaterSexualTension']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureCanvas_01a']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureCanvas_01b']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureCanvas_01c']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureCanvas_01d']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureCanvas_01e']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureCanvas_01f']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureCanvas_01g']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureCanvas_01h']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureCanvas_01i']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureCanvas_01j']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01a']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01b']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01c']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01e']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01h']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01j']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01k']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01n']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01o']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01q']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01s']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01t']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01u']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01v']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01w']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01d']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01f']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01l']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01i']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01m']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01p']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01r']">
+			<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='pictureFrame_01g']">
+			<property name="CanPickup" value="true"/>
+	</append>
+
+</configs>
+<!--
+/)_/)
+( . .)
+c(")(")
+-->
