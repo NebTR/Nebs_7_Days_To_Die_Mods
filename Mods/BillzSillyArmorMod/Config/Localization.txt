@@ -1,0 +1,7 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+modClownHorn,item_modifiers,Mod,,,"Clown Horn mod",,,,,,,,,,,,,
+modClownHornDesc,item_modifiers,Mod,,,"This Clown Horn seems to fit on you chest piece... It seems to distort your hearing...
+
+Use the Light Source action (F) to activate."
+buffEarPlugs,buffs,Buff,,,"Earplugs",,,,,,,,,,,,,
