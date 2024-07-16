@@ -31,3 +31,9 @@ If a mod has a bug please create an request in [Issues](https://github.com/WildK
 ### Billz Custom Recipes
 [![Screenshot 2024-07-16 140240](https://github.com/user-attachments/assets/075feb5e-717a-4911-917e-1d497f5c3d17)](https://www.dropbox.com/scl/fi/79mgbxm245kw8i2mocbcj/BillzCustomRecipes.zip?rlkey=8gbb84w38vafpiiqj9tt8o36o&st=te46uzri&dl=0)
 
+
+### Billz Silly Armor Mod
+[![Screenshot 2024-07-16 171639](https://github.com/user-attachments/assets/f62a0eda-f093-4252-9ef0-d9293645c8a0)](https://www.dropbox.com/scl/fi/ik2gj4dqwbeb9vr8bs3su/BillzSillyArmorMod.zip?rlkey=6pxylhmebeomrwmkpxxj98qql&st=zcijq0e7&dl=0)
+
+
+
