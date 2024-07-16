@@ -1,0 +1,34 @@
+<configs>
+
+	<append xpath="/item_modifiers">
+
+		<item_modifier name="modEarPlugs" installable_tags="armorHead" modifier_tags="EarPlugs" blocked_tags="noMods" type="attachment">
+
+			<property name="Extends" value="modGeneralMaster"/>
+			<property name="CustomIcon" value="modEarPlugs"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Group" value="Mods,Armor Mods"/>
+			<property name="EconomicValue" value="10"/>
+		
+			<effect_group>
+				<requirements>
+					<requirement name="IsLocalPlayer"/>	
+					<requirement name="!HasBuff" buff="twitch_buffDeafen"/>
+					<requirement name="!HasBuff" buff="twitch_buffVoteDeafen"/>
+				</requirements>
+				<triggered_effect trigger="onSelfItemActivate" action="AddBuff" buff="buffEarPlugs"/>
+				<triggered_effect trigger="onSelfItemDeactivate" action="RemoveBuff" buff="buffEarPlugs"/>
+				<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="buffEarPlugs"/>
+			</effect_group>	
+
+		</item_modifier>
+	
+	</append>
+
+</configs>
+
+<!--
+/)_/)
+( . .)
+c(")(")
+-->
