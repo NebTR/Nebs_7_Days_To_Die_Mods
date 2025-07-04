@@ -1,0 +1,65 @@
+<configs>
+	
+
+
+	<append xpath="/buffs">
+
+		<buff name="buffThwompStompersAirborneMod" hidden="true">
+			<stack_type value="replace"/>
+			<duration value="3"/>
+
+			<effect_group>
+				<passive_effect name="WalkSpeed" operation="perc_add" value="3"/>
+				<passive_effect name="RunSpeed" operation="perc_add" value="4"/>
+			</effect_group>
+			
+		</buff>
+
+		<buff name="buffThwompStompersAirborneMod2" hidden="true">
+			<stack_type value="replace"/>
+			<duration value="3"/>
+
+			<effect_group>
+				<passive_effect name="WalkSpeed" operation="perc_add" value="7"/>
+				<passive_effect name="RunSpeed" operation="perc_add" value="8"/>
+			</effect_group>
+
+		</buff>
+
+		<!-- Activations -->
+		<buff name="buffThwompStompers" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="0"/>
+		</buff>
+
+		<buff name="buffThwompStompers2" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="0"/>
+		</buff>
+
+		<buff name="buffPinkBoots" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="0"/>
+		</buff>
+
+		<!-- Pink boots buff -->
+		<buff name="buffPinkBootsAirborne" hidden="true">
+			<stack_type value="replace"/>
+			<duration value="3"/>
+
+			<effect_group>
+				<passive_effect name="WalkSpeed" operation="base_set" value="1.65"/>
+				<passive_effect name="RunSpeed" operation="base_set" value="4"/>
+				<passive_effect name="WalkSpeed" operation="perc_add" value="1.85"/>
+				<passive_effect name="RunSpeed" operation="perc_add" value="1.85"/>
+			</effect_group>
+		</buff>
+		
+	</append>
+
+</configs>
+<!--
+/)_/)
+( . .)
+c(")(")
+-->

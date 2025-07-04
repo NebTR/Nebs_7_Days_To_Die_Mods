@@ -1,0 +1,16 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+NebsThwompStompersMod,item_modifiers,Mod,,,"[831409]Thwomp Stompers Mod[-]"
+NebsThwompStompersModDesc,item_modifiers,Mod,,,"This is the [831409]Thwomp Stompers[-] from mario bros. Makes you jump higher and launch further. | [ED1C24]They seem to be developed in way to help Thwomper Stompers with falling.[-] |"
+NebsThwompStompersModShematic,item_modifiers,Mod,,,"This is the [831409]Thwomp Stompers[-] mario bros. Makes you jump higher and launch further. | [ED1C24]They seem to be developed in way to help Thwomper Stompers with falling.[-] |"
+
+NebsThwompStompersMod2,item_modifiers,Mod,,,"[4cbb17]Luigi Stompers Mod[-]"
+NebsThwompStompersMod2Desc,item_modifiers,Mod,,,"This is the [4cbb17]Luigi Stompers[-] from mario bros. Makes you jump higher and launch even further. | [ED1C24]They seem to be developed in way to help Thwomper Stompers with falling.[-] |"
+NebsThwompStompersMod2Shematic,item_modifiers,Mod,,,"This is the [4cbb17]Luigi Stompers[-] mario bros. Makes you jump higher and launch even further. | [ED1C24]They seem to be developed in way to help Thwomper Stompers with falling.[-] |"
+
+NebsLongFallBootsMod,item_modifiers,Mod,,,"[ff9a00]Long Fall Boots Mod[-]"
+NebsLongFallBootsModDesc,item_modifiers,Mod,,,"This is the [ff9a00]Long Fall Boots[-] It's the long fall boots from portal you will never get hurt when falling from any great height. | [ED1C24]They seem to be developed in a way to help Thwomper Stompers with falliing.[-] |"
+NebsLongFallBootsModShematic,item_modifiers,Mod,,,"This is the [ff9a00]Long Fall Boots[-] It's the long fall boots from portal you will never get hurt when falling from any great height. | [ED1C24]They seem to be developed in way to help Thwomper Stompers with falling.[-] |"
+
+NebsPinkBoots,item_modifiers,Mod,,,"[FF69B4]Pink Boots Mod[-]"
+NebsPinkBootsDesc,item_modifiers,Mod,,,"This is the [FF69B4]Pink Boots Mod[-]  These boots were made for walking and walking is what you'll do and more, Makes you jump higher and launch even further."
