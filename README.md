@@ -8,7 +8,7 @@ If a mod has a bug please create an request in [Issues](https://github.com/WildK
 ### Update Notes
 - | New Mod | NebTR Thwomper Stompers: not really new to me just adding it here: This mod adds the thwomper stompers from the mario movie, activate it like any other activate mod(Flashlight, Night vision, etc) and start jumping
 - | New download method | trying out e-z.gg for my downloads
-- | Earplugs | now can not be toggled if effect twitch_buffDeafen or twitch_buffVoteDeafen is currently applied
+- | warning | Will be updating all mods as well as use my new download method soon
 
 <hr>
 
