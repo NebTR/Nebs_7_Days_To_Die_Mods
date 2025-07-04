@@ -21,7 +21,7 @@ If a mod has a bug please create an request in [Issues](https://github.com/NebTR
 ## Mods
 
 ### NebTR Dye Makeing
-[![7-days-to-die-NebTR-dye-making](https://github.com/user-attachments/assets/21c64efe-94e9-4872-a476-c3054d4d28c2)](https://nebtr.is-a-furry.online/🐇/j4gutekd.zip)
+[![7-days-to-die-NebTR-dye-making](https://github.com/user-attachments/assets/21c64efe-94e9-4872-a476-c3054d4d28c2)](https://nebtr.is-a-furry.online/🐇/1ed9saty.zip)
 - Make dye in workbench for 35 paint or make dye in chemistry station for 15
 
 ### NebTR Paper Gathering
