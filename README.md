@@ -6,12 +6,9 @@ If a mod has a bug please create an request in [Issues](https://github.com/NebTR
 <hr>
 
 ### Update Notes
-- | New Mod | Thwomper Stompers: not really new to me just adding it here: This mod adds the thwomper stompers from the mario movie, activate it like any other activate mod(Flashlight, Night vision, etc) and start jumping
-- | New download method | trying out e-z.gg for my downloads
-- | Mod Update | Dye Making: Combined the two mods and changed campfire dye making to chemistry station while keeping the same price, workbench dye making now takes 35
-- | Mod Update | Paper Gathering: added 3 new recipes to making paper campfire has 2 and chemistry station has the other 2
-- | Mod Update | Earplugs: Added instructions to the earplugs to show your hotkey you have to press to activate
-- | Mod Update | Clown Ears: Added instuctions to the clown horn to show your hotkey you have to press to activate
+- | New Mod | Bring Jar
+- | Mod Update | Wacky Armor Mod: Combined Earplugs, Clownhorn, and Thwomper Stompers all into one
+- | Mod Update | Custome recipes: Added new recipes to the mod
 
 - | WARNING | Don't download from the github directly till I update the mods folder on here please download from the designated link to download it
 - | Need help | I need to update my mod pics to be more professional if you could redo them for me I would be thankful discord username "nebtb" 
@@ -36,19 +33,15 @@ If a mod has a bug please create an request in [Issues](https://github.com/NebTR
 [![Screenshot 2024-07-16 141824](https://github.com/user-attachments/assets/59684a17-ce4f-475a-9a44-6f56f34cfffd)](https://www.dropbox.com/scl/fi/o4c9pgw2kxf8tozpiosru/NebsGlassMaker.zip?rlkey=in4kq5ttl5qbr2ruldnel80nn&st=6xunghzc&dl=0)
 - Adds new glass recipes
 
-### NebTR Earplugs
-[![Screenshot 2024-07-10 193300](https://github.com/user-attachments/assets/79f279bb-0b11-4c98-b3b6-c5b5077cebc0)](https://www.dropbox.com/scl/fi/kq2tplemdexiiz81botto/NebsEarPlugs.zip?rlkey=zxfetsgyj0moyxoimia4o6zlz&st=kumrynrp&dl=0)
-- Earplug mod to muffle all sounds almost no sounds at all
-
 ### NebTR Custom Recipes
 [![Screenshot 2024-07-16 140240](https://github.com/user-attachments/assets/075feb5e-717a-4911-917e-1d497f5c3d17)](https://www.dropbox.com/scl/fi/t41jw7iapedejr05opb2s/NebsCustomRecipes.zip?rlkey=sj0qarjmrb3aflibdj13a9m1j&st=inrlbuzs&dl=0)
 - adds in recipes for each and every door as well as make each door that has a different color able to cycle through
 
-### NebTR Silly Armor Mod
-[![Screenshot 2024-07-16 171639](https://github.com/user-attachments/assets/f62a0eda-f093-4252-9ef0-d9293645c8a0)](https://www.dropbox.com/scl/fi/ngh5y0u2d2bkvr2uup41k/NebsSillyArmorMod.zip?rlkey=v6heg2lkxmisvcfznxcwz66p7&st=6zl0fezp&dl=0)
-- Makes sounds always silly sounds while active essentually what streaming does with twitch intergration on and viewers turn on silly sounds
+### NebTR Wacky Armor Mod
+[![7 Days to Die Screenshot 2025 07 04 - 15 21 13 15](https://github.com/user-attachments/assets/f69660a6-6d13-4d2c-876d-52f605e2d6c2)](https://www.dropbox.com/scl/fi/2zkmlwpdxi3uupsxuf21l/NebsWackyArmorMods.zip?rlkey=gktqgu5g1b8y921xazmka6owm&st=5h14zuig&dl=0)
+- This mod adds several new survivor tech toys: the Thwomp Stompers from the Mario movie, letting you jump higher and launch further; the Long Fall Boots from Aperture Science, which completely negate fall damage; the Earplugs, which reduce all volume when equipped; and the Clown Horn, which swaps serious sounds for goofy honks and squeaks. Activate them like any other toggle mod (Flashlight, Night Vision, etc.) and enjoy.
 
-### NebTR Thwomper Stompers Mod
-[![7 Days to Die Screenshot 2025 07 04 - 15 21 13 15](https://github.com/user-attachments/assets/f69660a6-6d13-4d2c-876d-52f605e2d6c2)](https://www.dropbox.com/scl/fi/onjpfkjp4s746tl7xu644/NebsThwompStompersMod.zip?rlkey=srbhz0l1d951v838w3qqcxud4&st=xu96f7uj&dl=0)
-- This mod adds the thwomper stompers from the mario movie, activate it like any other activate mod(Flashlight, Night vision, etc) and start jumping
+### NebTR Bring Jars Back
+[!Missing Image](https://www.dropbox.com/scl/fi/sq6cy2il2f3428d3zn2jh/NebsBringJarsBack.zip?rlkey=jz3px1via94thncvpcy7m6kye&st=9f0egf2p&dl=0)
+- Brings the jars back from Alpha 17 re-adds the cans as well made sure it's 1 to 1 the same should work just as it did as well as made sure any jars or drinks that had one of these items will give you them back the item
 
