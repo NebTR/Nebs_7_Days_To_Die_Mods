@@ -6,6 +6,7 @@ If a mod has a bug please create an request in [Issues](https://github.com/NebTR
 <hr>
 
 ### Update Notes
+- | NOTICE | When I update a single mod I will add it's own label so I don't have(or feel inclined) to make small updates to other mods just to have a changelog of them
 - | Github update | Added all mods to the release so you can download straight from github :)
 - | Need help | I need to update my mod pics to be more professional if you could redo them for me I would be thankful discord username "nebtb" 
 
