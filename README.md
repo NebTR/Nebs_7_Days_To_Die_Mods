@@ -6,12 +6,7 @@ If a mod has a bug please create an request in [Issues](https://github.com/NebTR
 <hr>
 
 ### Update Notes
-- | New Mod | Bring Jar
-- | Mod Update | Wacky Armor Mod: Combined Earplugs, Clownhorn, and Thwomper Stompers all into one
-- | Mod Update | Wacky Armor Mod: All the items now need you to start progressing in the "ArmorUp" magazine 20 for Earplugs, 45 for Clown horn, 85 for Thwomper stompers, 90 for Long Fall boots, 100 for Luigi Stompers
-- | Mod Update | Custome recipes: Added new recipes to the mod
-
-- | WARNING | 
+- | Github update | Added all mods to the release so you can download straight from github :)
 - | Need help | I need to update my mod pics to be more professional if you could redo them for me I would be thankful discord username "nebtb" 
 
 <hr>
