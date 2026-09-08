@@ -1,8 +1,6 @@
 # NebTRs 7 Days to Die mods
 If a mod has a bug please create an request in [Issues](https://github.com/NebTR/Nebs_7_Days_To_Die_Mods/issues) with the name of the mod as the title
 
-Discord username: nebtb
-
 **Images are clickable to download mod**
 
 <hr>
